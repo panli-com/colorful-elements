@@ -44,7 +44,7 @@ gulp.task('sass', function() {
         .pipe(gulp.dest('dist/css'))
         .pipe(rename({suffix: '.min'}))
         .pipe(minifycss())
-        .pipe(gulp.dest('dist/css'))
+        .pipe(gulp.dest('./'))
         .pipe( connect.reload() )
         .pipe(notify({ message: 'Styles  task complete' }));
 
