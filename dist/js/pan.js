@@ -48,11 +48,11 @@
 
                 str += '<li class="product"  >'+
                     '<div class="tupian">'+
-                    '   <a class="box_tu" href="'+ data[i].TbUrl +'" target="_blank" title="'+ data[i].Name  +'"  >'+
+                    '   <a class="box_tu" href="'+ data[i].Url +'" target="_blank" title="'+ data[i].Name  +'"  >'+
                     '       <img title="'+ data[i].Name  +'" src="images/products/red'+ parseInt(i+1)+'.jpg" alt="'+ data[i].Name  +'" />'+
                     '   </a>'+
                     '</div>'+
-                    '<a class="product_name" href="'+ data[i].TbUrl +'" target="_blank">'+ data[i].Name  +'</a>'+
+                    '<a class="product_name" href="'+ data[i].Url +'" target="_blank">'+ data[i].Name  +'</a>'+
                     '   <p class="price"><span>Price：</span>$ '+ data[i].PriceUS  +'</p>'+
                     '<a class="buynow" href="'+ data[i].Url +'" target="_blank"></a>'+
                     '</li>';
@@ -68,11 +68,11 @@
 
                 str += '<li class="product">'+
                     '<div class="tupian">'+
-                    '   <a class="box_tu" href="'+ data[i].TbUrl +'" target="_blank" title="'+ data[i].Name  +'"  >'+
+                    '   <a class="box_tu" href="'+ data[i].Url +'" target="_blank" title="'+ data[i].Name  +'"  >'+
                     '       <img title="'+ data[i].Name  +'" src="images/products/green'+ parseInt(i+1)+'.jpg" alt="'+ data[i].Name  +'" />'+
                     '   </a>'+
                     '</div>'+
-                    '<a class="product_name" href="'+ data[i].TbUrl +'" target="_blank">'+ data[i].Name  +'</a>'+
+                    '<a class="product_name" href="'+ data[i].Url +'" target="_blank">'+ data[i].Name  +'</a>'+
                     '   <p class="price"><span>Price：</span>$ '+ data[i].PriceUS  +'</p>'+
                     '<a class="buynow" href="'+ data[i].Url +'" target="_blank"></a>'+
                     '</li>';
@@ -87,11 +87,11 @@
 
                 str += '<li class="product">'+
                     '<div class="tupian">'+
-                    '   <a class="box_tu" href="'+ data[i].TbUrl +'" target="_blank" title="'+ data[i].Name  +'" >'+
+                    '   <a class="box_tu" href="'+ data[i].Url +'" target="_blank" title="'+ data[i].Name  +'" >'+
                     '       <img title="'+ data[i].Name  +'" src="images/products/yellow'+ parseInt(i+1)+'.jpg" alt="'+ data[i].Name  +'" />'+
                     '   </a>'+
                     '</div>'+
-                    '<a class="product_name" href="'+ data[i].TbUrl +'" target="_blank">'+ data[i].Name  +'</a>'+
+                    '<a class="product_name" href="'+ data[i].Url +'" target="_blank">'+ data[i].Name  +'</a>'+
                     '   <p class="price"><span>Price：</span>$ '+ data[i].PriceUS  +'</p>'+
                     '<a class="buynow" href="'+ data[i].Url +'" target="_blank"></a>'+
                     '</li>';
@@ -107,11 +107,11 @@
 
                 str += '<li class="product">'+
                     '<div class="tupian">'+
-                    '   <a class="box_tu" href="'+ data[i].TbUrl +'" target="_blank" title="'+ data[i].Name  +'"  >'+
+                    '   <a class="box_tu" href="'+ data[i].Url +'" target="_blank" title="'+ data[i].Name  +'"  >'+
                     '       <img title="'+ data[i].Name  +'" src="images/products/pink'+ parseInt(i+1)+'.jpg" alt="'+ data[i].Name  +'" />'+
                     '   </a>'+
                     '</div>'+
-                    '<a class="product_name" href="'+ data[i].TbUrl +'" target="_blank">'+ data[i].Name  +'</a>'+
+                    '<a class="product_name" href="'+ data[i].Url +'" target="_blank">'+ data[i].Name  +'</a>'+
                     '   <p class="price"><span>Price：</span>$ '+ data[i].PriceUS  +'</p>'+
                     '<a class="buynow" href="'+ data[i].Url +'" target="_blank"></a>'+
                     '</li>';
@@ -127,11 +127,11 @@
 
                 str += '<li class="product">'+
                     '<div class="tupian">'+
-                    '   <a class="box_tu" href="'+ data[i].TbUrl +'" target="_blank" title="'+ data[i].Name  +'" >'+
+                    '   <a class="box_tu" href="'+ data[i].Url +'" target="_blank" title="'+ data[i].Name  +'" >'+
                     '       <img title="'+ data[i].Name  +'" src="images/products/blue'+ parseInt(i+1)+'.jpg" alt="'+ data[i].Name  +'" />'+
                     '   </a>'+
                     '</div>'+
-                    '<a class="product_name" href="'+ data[i].TbUrl +'" target="_blank">'+ data[i].Name  +'</a>'+
+                    '<a class="product_name" href="'+ data[i].Url +'" target="_blank">'+ data[i].Name  +'</a>'+
                     '   <p class="price"><span>Price：</span>$ '+ data[i].PriceUS  +'</p>'+
                     '<a class="buynow" href="'+ data[i].Url +'" target="_blank"></a>'+
                     '</li>';
