@@ -46,6 +46,13 @@ a.buynow {display:block; width:100px; height:24px; background:url(images/Color_b
 a.buynow:hover, a.buynow:active { background:url(images/Color_button.gif) no-repeat 0px -24px; }
 
 
+.pan_loading{
+	min-height: 160px;
+	background: url("images/load/loading.gif") no-repeat center center;
+}
+
+
+
 
 
 

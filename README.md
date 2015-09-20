@@ -1,2 +1,4 @@
 # colorful-elements 
-英文彩色生活
+鑻辨枃褰╄壊鐢熸椿
+
+'npm install --save-dev gulp gulp-browserify gulp-concat gulp-connect gulp-react lodash reactify'
