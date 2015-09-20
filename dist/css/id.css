@@ -12,23 +12,23 @@ input,a { outline:none;}
 body { font-family:'Microsoft YaHei'; font-size:12px;}
 #frame{ width:100%; background-color:#fda9c3; overflow:hidden;}
 .header_banner{ width:100%; margin:0 auto; height:565px;}
-.banner1{ background:url(images/Color_banner_02.jpg) no-repeat center; height:90px;}
-.banner2{ background:url(images/Color_banner_03.jpg) no-repeat center; height:90px;}
-.banner3{ background:url(images/Color_banner_04.jpg) no-repeat center; height:90px;}
-.banner4{ background:url(images/Color_banner_05.jpg) no-repeat center; height:90px;}
-.banner5{ background:url(images/Color_banner_06.jpg) no-repeat center; height:90px;}
-.banner6{ background:url(images/Color_banner_07.jpg) no-repeat center; height:115px;}
+.banner1{ background:url(../../images/color/Color_banner_02.jpg) no-repeat center; height:90px;}
+.banner2{ background:url(../../images/color/Color_banner_03.jpg) no-repeat center; height:90px;}
+.banner3{ background:url(../../images/color/Color_banner_04.jpg) no-repeat center; height:90px;}
+.banner4{ background:url(../../images/color/Color_banner_05.jpg) no-repeat center; height:90px;}
+.banner5{ background:url(../../images/color/Color_banner_06.jpg) no-repeat center; height:90px;}
+.banner6{ background:url(../../images/color/Color_banner_07.jpg) no-repeat center; height:115px;}
 
 
 #content_inner { width:1000px; margin:0 auto; padding-bottom:50px;}
 .red_color{ background-color:#fff; margin-top:60px;}
 .Green_color{ background-color:#fff; margin-top:40px;}
-.red_title{ background:url(images/Color_red.gif) no-repeat center; height:50px; padding:30px 0;}
+.red_title{ background:url(../../images/color/Color_red.gif) no-repeat center; height:50px; padding:30px 0;}
 .red_more{ position:relative; width:65px; height:25px; left:902px; display:block;}
-.green_title{ background:url(images/Color_green.gif) no-repeat center; height:50px; padding:30px 0;}
-.yellow_title{ background:url(images/Color_yellow.gif) no-repeat center; height:65px; padding:30px 0;}
-.pink_title{ background:url(images/Color_pink.gif) no-repeat center; height:49px; padding:30px 0;}
-.blue_title{ background:url(images/Color_blue.gif) no-repeat center; height:49px; padding:30px 0;}
+.green_title{ background:url(../../images/color/Color_green.gif) no-repeat center; height:50px; padding:30px 0;}
+.yellow_title{ background:url(../../images/color/Color_yellow.gif) no-repeat center; height:65px; padding:30px 0;}
+.pink_title{ background:url(../../images/color/Color_pink.gif) no-repeat center; height:49px; padding:30px 0;}
+.blue_title{ background:url(../../images/color/Color_blue.gif) no-repeat center; height:49px; padding:30px 0;}
 
 
 .show_box_inner { width:995px;padding:0 0 0 5px;  overflow:hidden; text-align:left;}
@@ -42,13 +42,13 @@ li.product { width:180px; height:280px; float:left;  margin-left:15px; overflow:
 .tupian { width:180px; height:180px;}
 .box_tu { display:block; width:180px; height:180px; }
 
-a.buynow {display:block; width:100px; height:24px; background:url(images/Color_button.gif) no-repeat 0px 0px; margin:0 auto;}
-a.buynow:hover, a.buynow:active { background:url(images/Color_button.gif) no-repeat 0px -24px; }
+a.buynow {display:block; width:100px; height:24px; background:url(../../images/color/Color_button.gif) no-repeat 0px 0px; margin:0 auto;}
+a.buynow:hover, a.buynow:active { background:url(../../images/color/Color_button.gif) no-repeat 0px -24px; }
 
 
 .pan_loading{
 	min-height: 160px;
-	background: url("images/load/loading.gif") no-repeat center center;
+	background: url("../../images/load/loading.gif") no-repeat center center;
 }
 
 

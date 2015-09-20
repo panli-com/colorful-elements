@@ -1,0 +1,31 @@
+.pan-footer{
+  border: solid 1px #d8d8d8;
+  background-color: #ebebeb;
+  color: #8c8c8c;
+  margin-top: 5px;
+
+  h6,.footer_a_box,p{
+    padding: 5px 15px;
+    color: #8c8c8c;
+  }
+  h6{
+    a{
+      color: #8c8c8c;
+      font-weight: 400;
+      font-size: 12px;
+    }
+  }
+  p{
+    color: #bdbdbd;
+  }
+  .footer_a_box{
+    border-bottom: dashed 1px #d8d8d8;
+    a{
+      margin-right: 10px;
+      color:#666;text-decoration:none;
+      &:hover{
+        color:#53a30c;text-decoration:underline;
+      }
+    }
+  }
+}

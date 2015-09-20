@@ -43,7 +43,7 @@
                 str += '<li class="product"  >'+
                     '<div class="tupian">'+
                     '   <a class="box_tu" href="'+ data[i].TbUrl +'" target="_blank" title="'+ data[i].Name  +'"  >'+
-                    '       <img title="product" src="images/products/red'+ parseInt(i+1)+'.jpg" alt="'+ data[i].Name  +'" />'+
+                    '       <img title="'+ data[i].Name  +'" src="images/products/red'+ parseInt(i+1)+'.jpg" alt="'+ data[i].Name  +'" />'+
                     '   </a>'+
                     '</div>'+
                     '<a class="product_name" href="'+ data[i].TbUrl +'" target="_blank">'+ data[i].Name  +'</a>'+

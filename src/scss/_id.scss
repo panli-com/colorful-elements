@@ -1,0 +1,193 @@
+a {
+  color:#333;
+}
+textarea {
+  resize:none;
+}
+input,a {
+  outline:none;
+}
+.Panli_overlay {
+  moz-opacity:0.56;
+  /* Moz + FF 透明度20% */
+  opacity:0.56;
+  /*支持CSS3的浏览器（FF 1.5也支持）透明度20%*/
+  filter:alpha(opacity=56);
+  /* IE 透明度20% */
+  position:fixed;
+  bottom:0;
+  top:0;
+  left:0;
+  right:0;
+  background:#000;
+  height:100%;
+  width:100%;
+  _position:absolute;
+  z-index:800;
+  display:none;
+}
+
+#frame {
+  width:100%;
+  background-color:#fda9c3;
+  overflow:hidden;
+}
+.header_banner {
+  width:100%;
+  margin:0 auto;
+  height:565px;
+}
+.banner1 {
+  background:url(../../images/color/Color_banner_02.jpg) no-repeat center;
+  height:90px;
+}
+.banner2 {
+  background:url(../../images/color/Color_banner_03.jpg) no-repeat center;
+  height:90px;
+}
+.banner3 {
+  background:url(../../images/color/Color_banner_04.jpg) no-repeat center;
+  height:90px;
+}
+.banner4 {
+  background:url(../../images/color/Color_banner_05.jpg) no-repeat center;
+  height:90px;
+}
+.banner5 {
+  background:url(../../images/color/Color_banner_06.jpg) no-repeat center;
+  height:90px;
+}
+.banner6 {
+  background:url(../../images/color/Color_banner_07.jpg) no-repeat center;
+  height:115px;
+}
+#content_inner {
+  width:1000px;
+  margin:0 auto;
+  padding-bottom:50px;
+}
+.red_color {
+  background-color:#fff;
+  margin-top:60px;
+}
+.Green_color {
+  background-color:#fff;
+  margin-top:40px;
+}
+.red_title {
+  background:url(../../images/color/Color_red.gif) no-repeat center;
+  height:50px;
+  padding:30px 0;
+}
+.red_more {
+  position:relative;
+  width:65px;
+  height:25px;
+  left:902px;
+  display:block;
+}
+.green_title {
+  background:url(../../images/color/Color_green.gif) no-repeat center;
+  height:50px;
+  padding:30px 0;
+}
+.yellow_title {
+  background:url(../../images/color/Color_yellow.gif) no-repeat center;
+  height:65px;
+  padding:30px 0;
+}
+.pink_title {
+  background:url(../../images/color/Color_pink.gif) no-repeat center;
+  height:49px;
+  padding:30px 0;
+}
+.blue_title {
+  background:url(../../images/color/Color_blue.gif) no-repeat center;
+  height:49px;
+  padding:30px 0;
+}
+.show_box_inner {
+  width:995px;
+  padding:0 0 0 5px;
+  overflow:hidden;
+  text-align:left;
+}
+.product_name {
+  display:block;
+  color:#333;
+  text-decoration:none;
+  line-height:16px;
+  margin-top:10px;
+  text-align:center;
+}
+.product_name:hover {
+  text-decoration:underline;
+  color:#333;
+}
+.price {
+  display:block;
+  color:#f0473a;
+  font-size:14px;
+  line-height:20px;
+  font-weight:normal;
+  margin-bottom:6px;
+  text-align:center;
+}
+.price span {
+  color:#333;
+}
+li.product {
+  width:180px;
+  height:280px;
+  float:left;
+  margin-left:15px;
+  overflow:hidden;
+  position:relative;
+  text-align:center;
+  img{
+    transition:All 0.4s ease-in-out;
+    -webkit-transition:All 0.4s ease-in-out;
+    -moz-transition:All 0.4s ease-in-out;
+    -o-transition:All 0.4s ease-in-out;
+  }
+  &:hover img{
+    transition:All 0.4s ease-in-out;
+    -webkit-transition:All 0.4s ease-in-out;
+    -moz-transition:All 0.4s ease-in-out;
+    -o-transition:All 0.4s ease-in-out;
+    transform:translate(0,-6px);
+    -webkit-transform:translate(0,-6px);
+    -moz-transform:translate(0,--6px);
+    -o-transform:translate(0,--6px);
+    -ms-transform:translate(0,--6px);
+    transform:rotate(3deg);
+    -webkit-transform:rotate(3deg);
+    -moz-transform:rotate(3deg);
+    -o-transform:rotate(3deg);
+    -ms-transform:rotate(3deg);
+  }
+
+}
+.tupian {
+  width:180px;
+  height:180px;
+}
+.box_tu {
+  display:block;
+  width:180px;
+  height:180px;
+}
+a.buynow {
+  display:block;
+  width:100px;
+  height:24px;
+  background:url(../../images/color/Color_button.gif) no-repeat 0px 0px;
+  margin:0 auto;
+}
+a.buynow:hover,a.buynow:active {
+  background:url(../../images/color/Color_button.gif) no-repeat 0px -24px;
+}
+.pan_loading {
+  min-height:160px;
+  background:url("../../images/load/loading.gif") no-repeat center center;
+}
