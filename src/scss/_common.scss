@@ -1,5 +1,44 @@
 $colorbg:#feb5cc;
 
+.clearfix:after{content:".";display:block;height:0;clear:both;visibility:hidden;}
+
+.clearfix{display:inline-block;}
+.clearfix {display:block;}
+
+.clear{
+  clear:both;
+  height:0px;
+  overflow:hidden;
+}
+
+body
+{
+  font-size: 12px;
+  margin: 0;
+  padding: 0;
+  font-family: Verdana,Arial,Helvetica,sans-serif;
+}
+
+p, h1, h2, h3, h4, h5, h6, li, ul, dd, dt, dl, form, div
+{
+  margin: 0;
+  padding: 0;
+}
+img
+{
+  border: none;
+}
+
+ul li
+{
+  list-style: none;
+}
+
+a
+{
+  color: #333;
+  outline: none;
+}
 .bg_color_pink{
   background-color:$colorbg ;
 }
