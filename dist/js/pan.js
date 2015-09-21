@@ -11,7 +11,7 @@
     Colorful.prototype = {
         getData:function(){
             /* json 数据的 请求 url 地址 */
-            var dataJsonUrl = "./jsondata.json";
+            var dataJsonUrl = "./data/jsondata.json";
 
             /* 获取json 数据 */
             $.getJSON(dataJsonUrl, function (data) {

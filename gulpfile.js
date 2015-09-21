@@ -56,11 +56,12 @@ gulp.task('html',function(){
 });
 
 gulp.task('panC',function(){
-    return gulp.src('./pan.js')
-
+    return gulp.src('./src/js/pan.js')
+        .pipe(concat('pan.js'))
+        .pipe(gulp.dest('dist/js'))
         .pipe(rename({suffix: '.min'}))
         .pipe(uglify())
-        .pipe(gulp.dest('./'))
+        .pipe(gulp.dest('./dist/js/'))
         .pipe( connect.reload() )
         .pipe(notify({ message: 'Scripts task complete' }));
 
