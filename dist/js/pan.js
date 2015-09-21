@@ -10,29 +10,35 @@
 
     Colorful.prototype = {
         getData:function(){
-            /* json 数据的 请求 url 地址 */
-            var dataJsonUrl = "./data/jsondata.json";
+            /*
+            * 判断请求类型
+            * */
+            if(postType == 1){
+                /* json 数据的 请求 url 地址 */
+                var dataJsonUrl = "./data/jsondata.json";
 
-            /* 获取json 数据 */
-            $.getJSON(dataJsonUrl, function (data) {
-                this._data = data;
+                /* 获取json 数据 */
+                $.getJSON(dataJsonUrl, function (data) {
+                    self.colorList(data);
 
-                /* 渲染红色 */
-                self.redList(data.red);
-                /* 渲染绿色 */
-                self.greenList(data.green);
-                /* 渲染黄色 */
-                self.yellowList(data.yellow);
-                /* 渲染粉色 */
-                self.pinkList(data.pink);
-                /* 渲染蓝色 */
-                self.blueList(data.blue);
+                });
 
+            }else{
+                self.colorList(pageJsonData);
+            }
 
-            });
         },
         colorList:function(data){
-
+            /* 渲染红色 */
+            self.redList(data.red);
+            /* 渲染绿色 */
+            self.greenList(data.green);
+            /* 渲染黄色 */
+            self.yellowList(data.yellow);
+            /* 渲染粉色 */
+            self.pinkList(data.pink);
+            /* 渲染蓝色 */
+            self.blueList(data.blue);
 
         },
         redList:function(data){

@@ -75,7 +75,7 @@ gulp.task('watch', function() {
     gulp.watch('./src/scss/*.scss', ['sass']);
 
     // 看守所有.js档
-    gulp.watch('./src/**/js/*.js', ['js']);
+    gulp.watch('./src/js/*.js', ['panC']);
 
     // 看守所有.html
     gulp.watch('./*.html',['html']);
